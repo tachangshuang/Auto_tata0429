@@ -31,8 +31,8 @@ def time_check():
 def time_clear():
     second = sleeptime(24, 0, 0)
     while 1 == 1:
-        time.sleep(second)
         clear_data()
+        time.sleep(second)
 
 
 
