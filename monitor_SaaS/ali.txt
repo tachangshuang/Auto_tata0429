@@ -4,9 +4,10 @@ Rtmap-911
 
 pip freeze > requirements.txt
 pip list >requirements.txt
+/root/tata/workspace/Auto_tata/monitor_SaaS
 
-nohup python3 all_result.py &
-ps aux | grep python
+nohup python3 /root/tata/workspace/Auto_tata/monitor_SaaS/all_result.py &
+ps aux |grep python
 TRUNCATE operation_record
 
 按CPU的使用率从大到小排序显示所有进程
