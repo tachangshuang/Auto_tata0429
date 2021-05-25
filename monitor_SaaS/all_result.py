@@ -35,7 +35,6 @@ def time_clear():
         time.sleep(second)
 
 
-
 def clear_data():
     # 获取游标  每天定时执行，清理三天之前的数据
     cursor = connect.cursor()
